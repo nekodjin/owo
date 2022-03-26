@@ -1,0 +1,15 @@
+[package]
+name = "owo"
+version = "0.1.0"
+edition = "2021"
+license = "BSD-3-Clause"
+authors = ["Avery R. <contact@nekodjin.org>"]
+
+[dependencies]
+logos = "0.12"
+ariadne = "0.1"
+chumsky = "0.8"
+
+[dependencies.clap]
+version = "3.1"
+features = ["derive"]
